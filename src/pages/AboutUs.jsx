@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { ThemeContext } from "../Context/ThemeContext";
+import Aboutimg from "../assets/navbar/AboutUs.png"
 import { useContext } from "react";
 
 const AboutPage = () => {
@@ -57,7 +58,7 @@ const AboutPage = () => {
             {/* Image with Gradient Overlay */}
             <div className="relative animate-fadeIn delay-700">
               <img
-                src="/src/assets/undraw_in-sync_3wdt.svg"
+                src={Aboutimg}
                 alt="Our Team"
                 className="w-full h-auto rounded-xl shadow-lg transform transition duration-700 hover:scale-105"
               />
